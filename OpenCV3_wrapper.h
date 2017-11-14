@@ -8,10 +8,12 @@
 #define DECLDIR __declspec(dllimport)
 #endif
 
+#include <vector>
+using namespace std;
 
 #include <opencv2/opencv.hpp>
 using namespace cv;
 #pragma comment(lib, "opencv_world331.lib")
 
 
-DECLDIR void get_gray_mat(int rows, int cols, Mat &mat);
+DECLDIR void get_gray_image(int rows, int cols, vector<float> &img_data);
