@@ -11,6 +11,7 @@
 #include <vector>
 using namespace std;
 
+// Use OpenCV 3.x header and lib
 #include <opencv2/opencv.hpp>
 using namespace cv;
 #pragma comment(lib, "opencv_world331.lib")
